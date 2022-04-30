@@ -4,8 +4,8 @@
   "description": "Realtime chat",
   "main": "server.js",
   "scripts": {
-	  "start": "node server",
-	  "dev": "nodemon server"
+    "start": "node server",
+    "dev": "nodemon server"
   },
   "author": "Fabian Mendoza",
   "license": "ISC",
