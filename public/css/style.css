@@ -17,7 +17,8 @@
 body {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
-    background: var(--light-color);
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(135,52,143,1) 44%); 
     margin: 20px;
 }
 
@@ -42,7 +43,7 @@ a {
 
 .chat-container {
     max-width: 90vw;
-    
+
     margin: 30px auto;
     overflow: hidden;
 }
@@ -129,30 +130,24 @@ a {
 
 /* Join Page */
 
-body {
-    background-image: url("background.png");
-    background-size: cover;
-}
+
 .join-container {
-    max-width: 90vw;
-   
-    margin: 80px auto;
-    color: #fff;
     
+
+    display: flex;
+    
+    justify-content: center;
+    color: #fff;
+
 }
 
-.join-header {
-    text-align: center;
-    padding: 20px;
-    background: rgba(102, 51, 153, 0.6);
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-}
+
 
 .join-main {
     padding: 30px 40px;
-    background: rgba(0, 0, 255, 0.6);
-    min-height: 72vh;
+    
+    
+   
 }
 
 .join-main p {
@@ -166,25 +161,49 @@ body {
 .join-main label {
     display: block;
     margin-bottom: 5px;
+    text-align: center;
+  
 }
 
 .join-main input[type='text'] {
     font-size: 16px;
     padding: 5px;
     height: 40px;
-    width: 100%;
+    min-width: 25vw;
+    border-radius: 35px;
 }
 
 .join-main select {
     font-size: 16px;
     padding: 5px;
     height: 40px;
-    width: 100%;
+    min-width: 25vw;
+    border-radius: 35px;
 }
 
 .join-main .btn {
     margin-top: 20px;
-    width: 100%;
+    max-width: 60vw;
+    display: block;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 35px;
+}
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 20vw;
+    margin-bottom: 5%;
+}
+
+.botones {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 @media (max-width: 700px) {
