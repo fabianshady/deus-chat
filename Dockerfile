@@ -10,4 +10,4 @@ RUN mkdir /usr/src/app/my-app/node_modules/.cache && chmod -R 777 /usr/src/app/m
 
 EXPOSE 3000
 
-CMD ["npm", "run","dev"]
+CMD ["npm", "start"]
