@@ -17,8 +17,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
-    background: rgb(255,255,255);
-    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(135,52,143,1) 44%); 
+    
     margin: 20px;
 }
 
@@ -36,23 +35,24 @@ a {
     background: var(--light-color);
     color: var(--dark-color-a);
     border: 0;
-    font-size: 17px;
+    border-radius: 15px;
 }
 
 /* Chat Page */
 
 .chat-container {
     max-width: 90vw;
-
+    background-color: #9CA4A6;
     margin: 30px auto;
     overflow: hidden;
+    border-radius: 15px;
 }
 
 .chat-header {
-    background: rgba(102, 51, 153, 0.6);
+    background-color: #7B77F2;
     color: #fff;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
     padding: 15px;
     display: flex;
     align-items: center;
@@ -65,7 +65,7 @@ a {
 }
 
 .chat-sidebar {
-    background: var(--dark-color-b);
+    background-color: #7B77F2;
     color: #fff;
     padding: 20px 20px 60px;
     overflow-y: scroll;
@@ -76,6 +76,7 @@ a {
     background: rgba(0, 0, 0, 0.1);
     padding: 10px;
     margin-bottom: 20px;
+    border-radius: 15px;
 }
 
 .chat-sidebar h3 {
@@ -96,7 +97,7 @@ a {
     padding: 10px;
     margin-bottom: 15px;
     background-color: var(--light-color);
-    border-radius: 5px;
+    border-radius: 15px;
     overflow-wrap: break-word;
 }
 
@@ -114,7 +115,10 @@ a {
 
 .chat-form-container {
     padding: 20px 30px;
-    background: rgba(102, 51, 153, 0.6);
+    background-color: #7B77F2;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+
 }
 
 .chat-form-container form {
@@ -126,6 +130,9 @@ a {
     padding: 5px;
     height: 40px;
     flex: 1;
+    border-radius: 15px;
+    border-style: hidden;
+    margin-right: 2%;
 }
 
 /* Join Page */
@@ -135,9 +142,9 @@ a {
     
 
     display: flex;
-    
+    flex-wrap: wrap;
     justify-content: center;
-    color: #fff;
+    color: black;
 
 }
 
@@ -145,7 +152,10 @@ a {
 
 .join-main {
     padding: 30px 40px;
-    
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
     
    
 }
@@ -156,12 +166,16 @@ a {
 
 .join-main .form-control {
     margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    
 }
 
 .join-main label {
     display: block;
     margin-bottom: 5px;
     text-align: center;
+    font-size: 20px;
   
 }
 
@@ -171,14 +185,20 @@ a {
     height: 40px;
     min-width: 25vw;
     border-radius: 35px;
+    border-style: solid;
+    border-width: 3px;
+    text-align: center;
 }
 
 .join-main select {
     font-size: 16px;
     padding: 5px;
     height: 40px;
-    min-width: 25vw;
+    text-align: center;
     border-radius: 35px;
+    border-style: solid;
+    border-width: 3px;
+    background-color: white;
 }
 
 .join-main .btn {
@@ -189,6 +209,9 @@ a {
     margin-left: auto;
     margin-right: auto;
     border-radius: 35px;
+    background-color: #a53692;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
 }
 
 .logo {
@@ -201,7 +224,7 @@ a {
 
 .botones {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-around;
 }

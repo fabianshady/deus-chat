@@ -11,3 +11,13 @@
 <p>Este proyecto esta adaptado para funcionar con docker, solo necesitas tenerlo instalado en tu computadora junto a docker compose.</p>
 
 ``` docker-compose up -d ```
+
+<h3>Instruccines para uso con nodejs</h3>
+
+<p>Instalar dependencias.</p>
+
+``` npm i ```
+
+<p>Iniciar servidor.</p>
+
+``` npm start ```

@@ -13,31 +13,35 @@
 <body>
     <div class="join-container">
 
-        <main class="join-main">
+        <main>
             <form action="chat.html">
-                <div>
-                    <img src="css/chatoffline.png" class="logo">
-                </div>
-                <div class="botones">
-                    <div class="form-control">
-                        <label for="username">Nombre de usuario</label>
-                        <input type="text" name="username" id="username" placeholder="Ingresa un nombre de usuario..."
-                            required />
+                <div class="join-main">
+                    <div>
+                        <img src="css/chatoffline.png" class="logo">
                     </div>
-                    <div class="form-control">
-                        <label for="room">Sala</label>
-                        <select name="room" id="room">
-                            <option value="Sala1">Sala 1</option>
-                            <option value="Sala2">Sala 2</option>
-                            <option value="Sala3">Sala 3</option>
-                            <option value="Sala4">Sala 4</option>
-                            <option value="Sala5">Sala 5</option>
-                            <option value="Sala6">Sala 6</option>
-                        </select>
+                    <br/>
+                    <br/>
+                    <div class="botones">
+                        <div class="form-control">
+                            <label for="username">Nombre de usuario</label>
+                            <input type="text" name="username" id="username"
+                                placeholder="Ingresa un nombre de usuario..." required />
+                        </div>
+                        <br/>
+                        <div class="form-control">
+                            <label for="room">Sala</label>
+                            <select name="room" id="room">
+                                <option value="Sala1">Sala 1</option>
+                                <option value="Sala2">Sala 2</option>
+                                <option value="Sala3">Sala 3</option>
+                                <option value="Sala4">Sala 4</option>
+                                <option value="Sala5">Sala 5</option>
+                                <option value="Sala6">Sala 6</option>
+                            </select>
+                        </div>
                     </div>
+                    <button type="submit" class="btn">Entrar al chat</button>
                 </div>
-                <button type="submit" class="btn">Entrar al chat</button>
-
             </form>
         </main>
     </div>
